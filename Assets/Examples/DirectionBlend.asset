@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 974fd741b73e0f24e867a5f61fb64748, type: 3}
+  m_Name: DirectionBlend
+  m_EditorClassIdentifier: 
+  blendType: 0
+  datas:
+  - motion: {fileID: 7400000, guid: c22bb1636e6de1946b849f3598fe202f, type: 2}
+    threshold: {x: 0, y: 0}
+    sync: 0
+  - motion: {fileID: 7400000, guid: 4a451500da41b454b8701bfda41c74f1, type: 2}
+    threshold: {x: 0, y: 1}
+    sync: 1
+  - motion: {fileID: 7400000, guid: 289a266921b90344fa42bebb00880d63, type: 2}
+    threshold: {x: 1, y: 0}
+    sync: 1
+  - motion: {fileID: 7400000, guid: d483d2a187823b4418949e3dcba38b64, type: 2}
+    threshold: {x: 0, y: -1}
+    sync: 1
+  - motion: {fileID: 7400000, guid: e1c1faed47840cb44a0b54f39d3b48be, type: 2}
+    threshold: {x: -1, y: 0}
+    sync: 1
